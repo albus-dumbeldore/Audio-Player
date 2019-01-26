@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>Audio Player</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div id="container">
+            <div id="audio-img">
+                <img class="cover"> 
+            </div>
+            <div id="audio-player">
+                <div id="audio-info">
+                    <span class="artist"></span><span class="title"></span>
+                </div>
+                <input id="volume" type="range" min="0" max="100" value="5">
+                <br>
+                <div id="audio-buttons">
+                    <button id="prev"></button>
+                    <button id="play"></button>
+                    <button id="pause"></button>
+                    <button id="stop"></button>
+                    <button id="next"></button>
+                </div>
+                <div class="clearfix"></div>
+                <div id="tracker">
+                    <div id="progressbar">
+                        <span id="progress"></span>
+                    </div>
+                    <span id="duration"></span>
+                </div>
+                <div class="clearfix"></div>
+                <ui id="playlist">
+                        <li song="Numb20Official20Video20-20Linkin20Park-kXYiU_JCYtU.mp3" cover="cover1.jpg" artist="Linkin Park"> Papercut.mp3 </li>
+                        <li song="Linkin Park - One Step Closer.mp3" cover="cover1.jpg" artist="Linkin Park">One Step Closer.mp3</li>
+                        <li song="Linkin Park - With You.mp3" cover="cover1.jpg" artist="Linkin Park">With You.mp3</li>
+                        <li song="Linkin Park - Points Of Authority.mp3" cover="cover1.jpg" artist="Linkin Park">Points Of Authority.mp3</li>
+                        <li song="Linkin Park - Crawling.mp3" cover="cover1.jpg" artist="Linkin Park">Crawling.mp3</li>
+                        <li song="Linkin Park - Runaway.mp3" cover="cover1.jpg" artist="Linkin Park">Runaway.mp3</li>
+                        <li song="Linkin Park - By Myself.mp3" cover="cover1.jpg" artist="Linkin Park">By Myself.mp3</li>
+                        <li song="Linkin Park - In The End.mp3" cover="cover1.jpg" artist="Linkin Park">In The End.mp3</li>
+                        <li song="Linkin Park - A Place For My Head.mp3" cover="cover1.jpg" artist="Linkin Park">A Place For My Head.mp3</li>
+                        <li song="Linkin Park - Forgotten.mp3" cover="cover1.jpg" artist="Linkin Park">Forgotten.mp3</li>
+                    
+                </ui>
+            </div> 
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+        <script src="javascript/main.js"></script>
+
+    </body>
+</html>
